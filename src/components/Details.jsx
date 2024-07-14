@@ -14,11 +14,11 @@ export const Details = () => {
                 return (
                     <div key={detail.id}>
 
-                    <div className='mt-[40px] mb-[50px] flex justify-between content-center first-line:items-center'>
+                    <div className='mt-[10px] mb-[20px] flex justify-between content-center first-line:items-center'>
 
                         <div className='flex gap-4 justify-center content-center items-center max-w-[200px]'>
-                            <img src={detail.img} height={30} width={30} />
-                            <h1> {detail.description}</h1>
+                            <img src={detail.img} height={20} width={20} />
+                            <h2 className='text-[8px]'> {detail.description}</h2>
                         </div>
 
 
@@ -27,14 +27,14 @@ export const Details = () => {
                             <div className="flex gap-4  items-center  place-items-center                            ">
 
                                 <img src={detail.countImg} alt="" height={30} width={30} />
-                                <h1 className='text-[11px] text-gray-400 '>{detail.country}</h1>
+                                <h1 className='text-[6px] text-gray-400 '>{detail.country}</h1>
                             </div>
 
 
-                            <h2 className=' text-[11px] text-gray-400'>{detail.sessioin}</h2>
+                            <h2 className=' text-[8px] text-gray-400'>{detail.sessioin}</h2>
 
 
-                            <Button className='text-[11px]'>Delete</Button>
+                            <Button className='text-[6px]'>Delete</Button>
                         </div  >
                     </div>
                         <hr className="my-[6px] h-[4px]" />

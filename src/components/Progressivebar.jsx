@@ -18,7 +18,7 @@ export  function Progressivebar() {
       value={65}
       showValueLabel={true}
     />
-    <h2 className='mt-[10px]'>9.2GB of 10GB used</h2>
+    <h2 className='mt-[5px]'>9.2GB of 10GB used</h2>
     </div>
   );
 }

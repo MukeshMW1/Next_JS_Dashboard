@@ -7,12 +7,12 @@ import { Details } from './Details'
 export const Browser = () => {
     return (
 
-        <div className='text-white mt-[40px] mr-[40px]'>
+        <div className='text-white mt-[10px] mr-[40px]'>
             <div>
-                <h1>Browser and Devices</h1>
-                <p className='text-[11px] text-gray-400'>These browsers and devices are currently signed in to your account.Remove any unauthorized devices</p>
+                <h2>Browser and Devices</h2>
+                <p className='text-[6px] text-gray-400'>These browsers and devices are currently signed in to your account.Remove any unauthorized devices</p>
 
-                <hr className="mt-[20px] h-[10px]" />
+                <hr className="mt-[10px] h-[6px]" />
             </div>
             <Details />
         </div>
