@@ -19,7 +19,7 @@ export const Basics = () => {
                         defaultValue='password' />
                     <p className='text-green-400 w-[220px] m-auto '><span>✓</span> very secure</p>
                 </div>
-                <Button>Edit</Button>
+                <Button className='text-[8px]'>Edit</Button>
             </div>
             <hr className='h-[6px]' />
         </div>
