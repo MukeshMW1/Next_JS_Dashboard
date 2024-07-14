@@ -18,7 +18,7 @@ export const Verification = () => {
                     <p>Two step verification</p>
                 </div>
 
-                <Button>Edit</Button>
+                <Button className='text-[8px]'>Edit</Button>
 
 
 

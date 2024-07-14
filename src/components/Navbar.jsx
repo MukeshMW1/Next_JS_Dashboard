@@ -194,8 +194,8 @@ export function ComplexNavbar() {
             <div className="flex items-center justify-between content-center">
 
                 <Searchbar />
-                <Btn name="+ Invite" color="black" />
-                <Btn name="Upgrade" color="green" />
+                <Btn name="+ Invite" color="black" className='text-[8px]' />
+                <Btn name="Upgrade" color="green" className='text-[8px]' />
                 <ProfileMenu />
             </div>
 
