@@ -12,7 +12,7 @@ export const Details = () => {
         <div>
             {info.map((detail) => {
                 return (
-                    <div>
+                    <div key={detail.id}>
 
                     <div className='mt-[40px] mb-[50px] flex justify-between content-center first-line:items-center'>
 
