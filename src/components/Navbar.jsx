@@ -135,7 +135,7 @@ function Searchbar() {
                 type="search"
                 placeholder="Search"
                 containerProps={{
-                    className: "min-w-[288px]",
+                    className: "min-w-[200px]",
                 }}
                 className=" !border-t-blue-gray-300 pl-9 placeholder:text-blue-gray-300 focus:!border-blue-gray-300"
                 labelProps={{
@@ -144,8 +144,8 @@ function Searchbar() {
             />
             <div className="!absolute left-3 top-[13px]">
                 <svg
-                    width="13"
-                    height="14"
+                    width="12"
+                    height="13"
                     viewBox="0 0 14 15"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -169,7 +169,7 @@ function Searchbar() {
 
 
 function Btn({ name, color }) {
-    return (<Button size="md" className={` ml-[20px] mr-[20px] rounded-lg sm:mt-0 `}>
+    return (<Button size="md" className={` ml-[20px] mr-[20px] rounded-lg sm:mt-0 text-[8px] `}>
         {name}
     </Button>
     )
@@ -194,8 +194,8 @@ export function ComplexNavbar() {
             <div className="flex items-center justify-between content-center">
 
                 <Searchbar />
-                <Btn name="+ Invite" color="black" className='text-[8px]' />
-                <Btn name="Upgrade" color="green" className='text-[8px]' />
+                <Btn name="+ Invite" color="black" />
+                <Btn name="Upgrade" color="green"/>
                 <ProfileMenu />
             </div>
 
