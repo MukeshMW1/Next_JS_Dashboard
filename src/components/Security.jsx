@@ -20,8 +20,8 @@ export const Security = () => {
             </div>
 
             <div className="flex gap-6">
-                <Button className="text-[8px] h-[15px] w-[30px]">Dismiss</Button>
-                <Button className="bg-blue-600 text-[8px] h-[15px] w-[30px]">Review Security</Button>
+                <Button className="text-[8px]">Dismiss</Button>
+                <Button className="bg-blue-600 text-[8px]">Review Security</Button>
             </div>
 
 
