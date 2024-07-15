@@ -9,10 +9,10 @@ export const Browser = () => {
 
         <div className='text-white mt-[10px] mr-[40px]'>
             <div>
-                <h2>Browser and Devices</h2>
+                <h2 className='text-[10px]'>Browser and Devices</h2>
                 <p className='text-[6px] text-gray-400'>These browsers and devices are currently signed in to your account.Remove any unauthorized devices</p>
 
-                <hr className="mt-[10px] h-[6px]" />
+                <hr className="mt-[6px] h-[4px]" />
             </div>
             <Details />
         </div>

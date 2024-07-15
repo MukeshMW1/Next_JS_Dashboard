@@ -5,7 +5,7 @@ export const Menubar = () => {
 
     return (
 
-        <div className='  p-2 lg:pl-6 mt-[20px] lg:text-[12px] sm:text-[10px]'>
+        <div className='  p-2 lg:pl-6 mt-[10px] lg:text-[11px] sm:text-[10px]'>
             <ul className='flex gap-[40px] text-gray-200 list-none'>
                 <li >General</li>
                 <li>Security</li>

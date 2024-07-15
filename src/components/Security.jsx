@@ -14,14 +14,14 @@ export const Security = () => {
                 <Circularbar percentage={percentage}/>
 
                 <div>
-                    <h2 className='text-[8px]'>Your account security is { percentage }%</h2>
+                    <h2 className='text-[10px]'>Your account security is { percentage }%</h2>
                     <p className='text-[6px]'>Please review your account security settings and update your password.</p>
                 </div>
             </div>
 
             <div className="flex gap-6">
-                <Button className="text-[6px]">Dismiss</Button>
-                <Button className="bg-blue-600 text-[6px]">Review Security</Button>
+                <Button className="text-[7px]">Dismiss</Button>
+                <Button className="bg-blue-600 text-[7px]">Review Security</Button>
             </div>
 
 
