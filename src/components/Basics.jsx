@@ -5,8 +5,8 @@ import React from 'react';
 export const Basics = () => {
 
     return (
-        <div className=" text-white mt-[40px] mr-[40px]">
-            <h2 className='mb-[10px]'>Basics</h2>
+        <div className=" text-white mt-[10px] mr-[40px]">
+            <h2 className='mb-[10px] text-[8px]'>Basics</h2>
             <hr className='h-[6px]' />
 
             <div className="flex justify-between items-center content-center mb-[10px]">
@@ -19,7 +19,7 @@ export const Basics = () => {
                         defaultValue='password' />
                     <p className='text-green-400 w-[220px] m-auto '><span>✓</span> very secure</p>
                 </div>
-                <Button className='text-[8px]'>Edit</Button>
+                <Button className='text-[6px]'>Edit</Button>
             </div>
             <hr className='h-[6px]' />
         </div>

@@ -34,7 +34,7 @@ export const Details = () => {
                             <h2 className=' text-[8px] text-gray-400'>{detail.sessioin}</h2>
 
 
-                            <Button className='text-[8px]'>Delete</Button>
+                            <Button className='text-[6px]'>Delete</Button>
                         </div  >
                     </div>
                         <hr className="my-[6px] h-[4px]" />
