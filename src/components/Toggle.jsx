@@ -5,7 +5,7 @@ export function Toggle() {
     const [enabled, setEnabled] = useState(false);
 
     return (
-        <div className="flex items-center justify-center  bg-transparent  h-[20px]">
+        <div className="flex items-center justify-center  bg-transparent w-[60px] h-[20px]">
             <button
                 onClick={() => setEnabled(!enabled)}
                 className={`relative inline-flex items-center h-6 rounded-full w-11 transition-colors duration-300 ease-in-out ${enabled ? 'bg-green-500' : 'bg-gray-400'

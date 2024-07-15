@@ -69,9 +69,9 @@ export const Sidebar = () => {
                         <img
                             src="https://docs.material-tailwind.com/img/logo-ct-dark.png"
                             alt="brand"
-                            className="h-6 w-6"
+                            className="h-4 w-4"
                         />
-                        <Typography variant="h5" color="blue-gray">
+                        <Typography variant="h5" color="blue-gray" className='text-[10px]'> 
                             Untitled UI
                         </Typography>
                     </div>

@@ -3,7 +3,7 @@ import { Progress } from "@nextui-org/react";
 
 export  function Progressivebar() {
   return (
-    <div className='mt-[150px]'>
+    <div className='mt-[20px]'>
     <Progress
       size="sm"
       radius="sm"
