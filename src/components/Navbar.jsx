@@ -183,7 +183,7 @@ export function ComplexNavbar() {
 
     return (
 
-        <div className="flex justify-between text-blue-gray-900 mt-[30px] ml-[20px] mr-[40px]">
+        <div className="flex justify-between text-blue-gray-900 mt-[20px] ml-[20px] mr-[40px]">
 
             <div className=''>
                 <h2 className="text-white">Mia De Silva</h2>

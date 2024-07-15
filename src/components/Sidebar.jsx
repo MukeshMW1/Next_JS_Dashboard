@@ -54,9 +54,9 @@ export const Sidebar = () => {
         <div className="mt-[20px] ml-[20px]">
             <IconButton variant="text" size="md" onClick={openDrawer}>
                 {isDrawerOpen ? (
-                    <XMarkIcon className="h-6 w-6 stroke-2 text-white" />
+                    <XMarkIcon className="h-8 w-8 stroke-2 text-white" />
                 ) : (
-                    <Bars3Icon className="h-6 w-6 stroke-2 text-white" />
+                    <Bars3Icon className="h-8 w-8 stroke-2 text-white" />
                 )}
             </IconButton>
             <Drawer open={isDrawerOpen} onClose={closeDrawer}>
