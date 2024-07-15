@@ -51,12 +51,12 @@ export const Sidebar = () => {
     const closeDrawer = () => setIsDrawerOpen(false);
 
     return (
-        <div className="mt-[20px] ml-[20px]">
-            <IconButton variant="text" size="lg" onClick={openDrawer}>
+        <div className="mt-[12px] ml-[20px]">
+            <IconButton variant="text" size="md" onClick={openDrawer}>
                 {isDrawerOpen ? (
-                    <XMarkIcon className="h-8 w-8 stroke-2 text-white" />
+                    <XMarkIcon className="h-6 w-6 stroke-2 text-white" />
                 ) : (
-                    <Bars3Icon className="h-8 w-8 stroke-2 text-white" />
+                    <Bars3Icon className="h-6 w-6 stroke-2 text-white" />
                 )}
             </IconButton>
             <Drawer open={isDrawerOpen} onClose={closeDrawer}>
@@ -69,7 +69,7 @@ export const Sidebar = () => {
                         <img
                             src="https://docs.material-tailwind.com/img/logo-ct-dark.png"
                             alt="brand"
-                            className="h-8 w-8"
+                            className="h-6 w-6"
                         />
                         <Typography variant="h5" color="blue-gray">
                             Untitled UI
@@ -79,60 +79,60 @@ export const Sidebar = () => {
                     <List>
                         <ListItem>
                             <ListItemPrefix>
-                                <HomeIcon className="h-5 w-5" />
+                                <HomeIcon className="h-4 w-4" />
 
                             </ListItemPrefix>
-                            Home
+                           <h2 className='text-[8px]'> Home</h2>
                         </ListItem>
                         <ListItem>
                             <ListItemPrefix>
-                                <DocumentIcon className="h-5 w-5" />
+                                <DocumentIcon className="h-4 w-4" />
 
 
                             </ListItemPrefix>
-                            All Files
+                            <h2 className='text-[8px]'> All Files</h2>
                         </ListItem>
                         <ListItem>
                             <ListItemPrefix>
-                                <DocumentDuplicateIcon className="h-5 w-5" />
+                                <DocumentDuplicateIcon className="h-4 w-4" />
 
 
                             </ListItemPrefix>
-                            Private Files
+                            <h2 className='text-[8px]'> Private Files</h2>
                         </ListItem>
                         <ListItem>
                             <ListItemPrefix>
-                                <ShareIcon className="h-5 w-5" />
+                                <ShareIcon className="h-4 w-4" />
 
 
                             </ListItemPrefix>
-                            Shared With me
+                            <h2 className='text-[8px]'> Shared with me</h2>
                         </ListItem>
                         <ListItem>
                             <ListItemPrefix>
-                                <TrashIcon className="h-5 w-5" />
+                                <TrashIcon className="h-4 w-4" />
 
 
 
                             </ListItemPrefix>
-                            Deleted Files
+                            <h2 className='text-[8px]'> Deleted files</h2>
                         </ListItem>
                         <ListItem>
                             <ListItemPrefix>
-                                <PencilIcon className="h-5 w-5" />
+                                <PencilIcon className="h-4 w-4" />
 
 
 
 
                             </ListItemPrefix>
-                            Design
+                            <h2 className='text-[8px]'> Design</h2>
                         </ListItem>
 
                         <ListItem>
                             <ListItemPrefix>
-                                <InboxIcon className="h-5 w-5" />
+                                <InboxIcon className="h-4 w-4" />
                             </ListItemPrefix>
-                            Notifications
+                            <h2 className='text-[8px]'> Notifications</h2>
                             <ListItemSuffix>
                                 <Chip
                                     value="14"
@@ -146,15 +146,15 @@ export const Sidebar = () => {
 
                         <ListItem>
                             <ListItemPrefix>
-                                <Cog6ToothIcon className="h-5 w-5" />
+                                <Cog6ToothIcon className="h-4 w-4" />
                             </ListItemPrefix>
-                            Settings
+                            <h2 className='text-[8px]'> Settings</h2>
                         </ListItem>
                         <ListItem>
                             <ListItemPrefix>
-                                <PowerIcon className="h-5 w-5" />
+                                <PowerIcon className="h-4 w-4" />
                             </ListItemPrefix>
-                            Log Out
+                            <h2 className='text-[8px]'> Log out</h2>
                         </ListItem>
                     </List>
                     <Alert
@@ -162,7 +162,7 @@ export const Sidebar = () => {
                         className="mt-auto"
                         onClose={() => setOpenAlert(false)}
                     >
-                        <CubeTransparentIcon className="mb-4 h-12 w-12" />
+                        <CubeTransparentIcon className="mb-4 h-8 w-8" />
                         <Typography variant="h6" className="mb-1">
                             Upgrade to PRO
                         </Typography>
